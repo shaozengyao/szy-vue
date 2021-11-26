@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from "vue";
 
-defineProps<{ msg: string }>()
+defineProps<{ msg: string }>();
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
 
   <p>
-    Recommended IDE setup:
+    Recommended11 IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
     +
     <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
