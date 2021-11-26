@@ -6,7 +6,6 @@
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
     "lint":"eslint --fix ./src --ext .vue,.js,.ts"
-    
   },
   "dependencies": {
     "axios": "^0.24.0",
